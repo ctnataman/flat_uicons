@@ -1,0 +1,30 @@
+name: flat_uicons
+description: "Flat UIcons package"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  fonts:
+    - family: FlatUIconsRegularRounded
+      fonts:
+        - asset: assets/fonts/uicons-regular-rounded.ttf
+    - family: FlatUIconsBoldRounded
+      fonts:
+        - asset: assets/fonts/uicons-bold-rounded.ttf
+    - family: FlatUIconsSolidRounded
+      fonts:
+        - asset: assets/fonts/uicons-solid-rounded.ttf
+
